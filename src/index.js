@@ -2,7 +2,7 @@ const letters = require('./letters.json');
 const letters_knife = require('../node_modules/telephone-booth/index.json');
 const cangjie = require('./cangjie.json');
 
-class Tent {
+class Tennis {
   constructor(string, d = false) {
     this.debug = d;
     this.phrase = string || '';
@@ -1121,4 +1121,4 @@ class Tent {
   }
 }
 
-module.exports.Tent = Tent;
+module.exports.Tennis = Tennis;
